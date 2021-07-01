@@ -6,7 +6,7 @@ LICENSE - The license file
 
 Sparkify.ipynb - The notebook that hosts the data analysis and the ML model build and test
 
-mini_sparkify_event_data.json - The subset of the data used for the analysis
+mini_sparkify_event_data.7z - The subset of the data used for the analysis that is a zipped json
 
 summary of the project! 
 
