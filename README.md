@@ -65,20 +65,3 @@ Ideally the next step would be to run the same code for the full dataset in a pr
 If the results are satisfying, we can create the pickle file and apply in another code the calculation of the churn scoring for all the users.
 The users with high churn score are more risky to leave the Sparkify platform and generate loss of revenues, so we should target them with offers and gifts,
 in order convince them stay in the platform and increase their loyalty.
-
-ETL Pipeline Build The ETL reads the 2 csv input files, joins them, cleans them accordingly and stores them to a SQL lite table in order to be used for the ML model training and testing The jupyter notebook named ETL Pipeline Preparation.ipynb performs the steps in jupyter The python code named process_data.py performs the steps in a python env
-
-ML Pipeline Build The ML reads the clean data from SQL lite, builds the ML pipeline, trains it, tests it and stores the results into a pickle file The jupyter notebook named ML Pipeline Preparation.ipynb performs the steps in jupyter The python code named train_classifier.py performs the steps in a python env
-
-Web Site Start The website starts by running in a python env the code run.py. In the site you can write as input a message and the site will revert the clasification result from the ML pipeline.
-
-Below some info on how to run the python codes in a python ENV.
-
-    Run the following commands in the project's root directory to set up your database and model.
-        To run ETL pipeline that cleans data and stores in database python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db
-        To run ML pipeline that trains classifier and saves python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl
-
-    Run the folloDisasterResponsewing command in the app's directory to run your web app. python run.py
-
-    Go to http://0.0.0.0:3001/
-
