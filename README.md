@@ -33,7 +33,7 @@ The project is written in pyspark, as this was a dependency. Spark is a multithr
 The initial full dataset has size 12GB, but in the notebook above we work on a subset file of the same structure and size 128MB.
 The goal is the code to be scalable and can be used, as is, even with the 12GB dataset, of course in a cluster that provides the relevant capacity and power.
 
-Tje jupyter notebook contains 4 main sessions explained below:
+Tje jupyter notebook contains 5 main sessions explained below:
 
 1. Import of Libraries and Build of Spark Session
 
