@@ -8,6 +8,9 @@ Sparkify.ipynb - The notebook that hosts the data analysis and the ML model buil
 
 mini_sparkify_event_data.7z - The subset of the data used for the analysis that is a zipped json
 
+Folder /try_runs/ - It accomodates the test codes where we executed the different tests with the different lists of predictors until we find the final one.
+The folder inside contains the Jupyter notebooks of the test runs with the name format Sparkify_X_run.ipynb
+
 summary of the project! 
 
 The purpose of this project is to build an ML model that predicts the churn scoring for the users of a music streaming platform called Sparkify.
@@ -53,9 +56,9 @@ Tje jupyter notebook contains 5 main sessions explained below:
 5. Modeling
    - On this session we execute the ML Model. 
    First of all, we try to apply scalability techniques, by converting the KPIs to vectors and then scaling them properly.
-   Then we create the features and the label objects that will be used as input in the ML algorythms.
+   Then we create the features and the label objects that will be used as input in the ML algorithms.
    Then we split the data into train and test datasets
-   Then we perform the training and test of 4 different ML clasification algorythms GBT, Random Forest, Logistic Regression and SVMand
+   Then we perform the training and test of 4 different ML classification algorithms GBT, Random Forest, Logistic Regression and SVM
    Then we evaluate them and compare the results
    
    We perform all the above steps with several different combinations of interesting KPIs, we store the results and eventualy we choose the best algorythm and the
